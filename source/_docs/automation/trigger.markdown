@@ -643,7 +643,7 @@ automation 2:
 automation 3:
   trigger:
     - platform: time_pattern
-      # You can also match on interval. This will match every 5 minutes
+      # You can also match on interval. This will match every multiple of 5 minutes
       minutes: "/5"
 ```
 
